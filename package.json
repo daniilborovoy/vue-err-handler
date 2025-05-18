@@ -2,8 +2,18 @@
   "name": "vue-err-handler",
   "version": "0.0.4",
   "main": "err-handler.js",
+  "files": [
+    "err-handler.js",
+    "err-handler.d.ts",
+    "cancelable-promise.js",
+    "cancelable-promise.d.ts",
+    "README.md",
+    "LICENSE.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
   },
   "keywords": [
     "vue",
@@ -15,9 +25,18 @@
     "typescript"
   ],
   "author": "Daniil Borovoy <daniilborovoy42@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniilborovoy/vue-err-handler"
+  },
   "license": "ISC",
   "description": "A Vue 3 composable for handling asynchronous operations with automatic retry functionality and error management. Perfect for handling API calls, form submissions, and any async operations that may fail.",
   "dependencies": {
     "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.3.1",
+    "@vitest/ui": "^1.3.1",
+    "vitest": "^1.3.1"
   }
 }
