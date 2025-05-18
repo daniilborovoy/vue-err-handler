@@ -1,6 +1,6 @@
 {
   "name": "vue-err-handler",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "err-handler.js",
   "files": [
     "err-handler.js",
