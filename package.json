@@ -1,0 +1,23 @@
+{
+  "name": "vue-err-handler",
+  "version": "0.0.4",
+  "main": "err-handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "error-handling",
+    "retry",
+    "async",
+    "composable",
+    "typescript"
+  ],
+  "author": "Daniil Borovoy <daniilborovoy42@gmail.com>",
+  "license": "ISC",
+  "description": "A Vue 3 composable for handling asynchronous operations with automatic retry functionality and error management. Perfect for handling API calls, form submissions, and any async operations that may fail.",
+  "dependencies": {
+    "vue": "^3.5.13"
+  }
+}
